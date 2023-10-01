@@ -25,6 +25,10 @@ Create public/private SSH key pair for security measures when pushing to GitHub;
     I went to github > settings > SSH and GPG Key > New SSH Key
     Using git bash terminal, I output my public key by using this command, 'cat ~/.ssh/id_rsa.pub'
         always use the PUBLIC KEY. 
-
+    Now, to push in github repo
+        git remote add origin https://github.com/your-username/repository-name.git
+        git push -u origin main
+    To get my repo SSH url, I went to target repository > Code > Find Code button with dropdown > SSH > copy url
+        
 
 
